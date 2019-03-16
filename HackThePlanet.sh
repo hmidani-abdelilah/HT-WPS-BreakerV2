@@ -12,7 +12,7 @@ White='\e[0;37m'        # White
 
 # Bold
 BBlack='\e[1;30m'       # Black
-BRed='\e[1;31m'         # Red
+BRed='\e[5;31m'         # Red
 BGreen='\e[1;32m'       # Green
 BYellow='\e[1;33m'      # Yellow
 BBlue='\e[1;34m'        # Blue
