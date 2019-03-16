@@ -1,13 +1,13 @@
 # HT-WPS-BreakerV2
 ## HT-WPS-BreakerV2 {Hack The Planet}
 
-HT-WPS-BreakerV2 {Hack The Planet} It's a tool To Hunt And kill many vulnerable routers and get the password Also Wps Pin To Hunt Again Router Incase The Password Changed.
+HT-WPS-BreakerV2 {Hack The Planet} It's a tool To Hunt And kill many vulnerable routers and get the password Also Wps Pin To Hunt Again Router Incase The Password have been Changed.
 
 # New Features :
 
 ## Bugs Fixed 
 ## Updated Tools
-## New Attacks Mods
+## New Mod Attacks
 
 ## Usage :
 <img src="https://i.ibb.co/MSmPHk3/hacktheplanet.png" alt="hacktheplanet" border="0">
