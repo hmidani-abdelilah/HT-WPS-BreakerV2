@@ -12,7 +12,7 @@ White='\e[0;37m'        # White
 
 # Bold
 BBlack='\e[1;30m'       # Black
-BRed='\e[5;31m'         # Red
+BRed='\e[1;31m'         # Red
 BGreen='\e[1;32m'       # Green
 BYellow='\e[1;33m'      # Yellow
 BBlue='\e[1;34m'        # Blue
@@ -56,7 +56,7 @@ RM_HT_FOLDER() {
 echo ""
 echo ""
 echo ""
-echo -e "$White [${Green} ok ${White}]$Green HT-WPS Breaker$White Upgraded By$BYellow Benelhaj_Younes."
+echo -e "$White [${Green} ok ${White}]$Green HT-WPS BreakerV2$White By$BYellow Benelhaj_Younes."
 echo ""
 echo -e "$White [${Blue} !! ${White}] Remove any temporary file."
 rm -rf ${Temporary}
@@ -138,7 +138,7 @@ arguments() {
                            WPS=`cat ${Temporary}/Reaver.txt | grep 'WPS PIN'`
 						   echo ""
 						   echo -e "${White} +${Yellow}------------------------------${White}+"
-						   echo -e "${Yellow} |${White} [${Blue}+${White}]$Yellow all requiBlue arguments${Yellow}   |"
+						   echo -e "${Yellow} |${White} [${Blue}+${White}]$Yellow all require$Blue arguments${Yellow}   |"
 						   echo -e "${White} +${Yellow}------------------------------${White}+"
 						   echo ""
 						   v=0
@@ -1831,17 +1831,17 @@ End_OF_THE_SCRIPT(){
         					ifconfig $mon down && iwconfig $mon mode managed && ifconfig $mon up > /dev/null 2> /dev/null &
         					echo ""
 					fi
-					echo -e "$White [${Red}+${White}]$Green Greetz to ${White}: ${Cyan}AKAS${White} &&${Cyan} Fantome195${White} ."
+					echo -e "$White [${Red}+${White}]$Green Greetz to ${White}: ${cyan}SilentGhostX${White} &&${Cyan}AKAS${White} &&${Cyan} Fantome195${White} ."
 					echo ""
 					echo -e "             ${Green}########################################################"
 					sleep 0.1
 					echo -e "             ##                ${Yellow}{Full Information}${Green}                  ##"
 					sleep 0.1
-					echo -e "             ##   ${Cyan}-Author   ${White}:      {${Yellow} Benelhaj_Younes ${White}}                ${Green}##"
+					echo -e "             ##   ${Cyan}-Author   ${White}:      {${Yellow} Benelhaj_Younes ${White}}              ${Green}##"
 					sleep 0.1
 					echo -e "             ##   ${Cyan}-Country  ${White}:      {${Red} Morocco ${White}}                     ${Green}##"
 					sleep 0.1
-					echo -e "             ##   ${Cyan}-Email    ${White}:      {${Purple} DoopHack@gmail.com ${White}}   ${Green}##"
+					echo -e "             ##   ${Cyan}-Email    ${White}:      {${Purple} DoopHack@gmail.com ${White}}           ${Green}##"
 					sleep 0.1
 					echo -e "             ########################################################"
 					sleep 0.1
